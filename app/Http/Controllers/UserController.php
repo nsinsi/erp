@@ -285,10 +285,5 @@ class UserController extends Controller
                         ->with('success','User deleted successfully');
     }
 
-    public function search()
-    {
-      $search_text = $_GET['query'];
-      $users=User::where('first_name','LIKE','%'.$search_text.'%')->paginate(10);
-      return view('users.search',compact('users'));
-    }
+   
 }
