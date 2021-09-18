@@ -28,11 +28,11 @@
                   </div>
                   <div class="">
                     <input type="text" class="form-control" name="search" aria-label="Search" placeholder="Search" keyup.enter="" id="search" >
-                    <!-- <button class="search-button" type="submit" >
+                    <--<button class="search-button" type="submit" >
                       <svg class="c-icon mfe-2">
                         <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-search"></use>
                       </svg>
-                    </button> -->
+                    </button>-->
                   </div>
                 </form>
               </div>
