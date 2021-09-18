@@ -33,7 +33,7 @@ Route::group(['middleware' => ['auth']], function() {
   Route::resource('roles', RoleController::class);
 
   Route::resource('users', UserController::class);
-  Route::get('search', [UserController::class, 'search']);
+  Route::get('search', [SearchController::class, 'search']);
   Route::get('profile', [UserController::class, 'profile']);
 
   Route::resource('projects',ProjectController::class);
